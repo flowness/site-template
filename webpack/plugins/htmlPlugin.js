@@ -4,7 +4,8 @@ const
   HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const titles = {
-  'index': 'Dashboard',
+  'index': 'About',
+  'report': 'Reports',
   '404': '404',
   '500': '500',
 };
