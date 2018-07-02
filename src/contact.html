@@ -118,21 +118,21 @@
               </a>
             </li>
             <li class="nav-item mT-30">
-              <a class="sidebar-link" href="report.html">
-                <span class="icon-holder">
-                  <i class="c-blue-500 ti-stats-up"></i>
-                </span>
-                <span class="title">Reports</span>
-              </a>
-            </li>
+                <a class="sidebar-link" href="report.html">
+                  <span class="icon-holder">
+                    <i class="c-purple-500 ti-stats-up"></i>
+                  </span>
+                  <span class="title">Reports</span>
+                </a>
+              </li>
             <li class="nav-item mT-30">
               <a class="sidebar-link" href="service.html">
-                <span class="icon-holder">
-                  <i class="c-purple-500 ti-pulse"></i>
-                </span>
-                <span class="title">Services</span>
-              </a>
-            </li>
+                  <span class="icon-holder">
+                    <i class="c-blue-500 ti-pulse"></i>
+                    <span class="title">Services</span>
+                    </span>
+                </a>
+              </li>
             <li class="nav-item mT-30">
               <a class="sidebar-link" href="contact.html">
                 <span class="icon-holder">
@@ -141,6 +141,7 @@
                 <span class="title">Contact Us</span>
               </a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -151,8 +152,6 @@
         <div class="header navbar">
           <div class="header-container">
             <ul class="nav-left">
-              <li>
-              </li>
             </ul>
             <ul class="nav-right">
             </ul>
@@ -161,14 +160,31 @@
 
         <!-- ### $App Screen Content ### -->
         <main class='main-content bgc-grey-100'>
-          <div class="container-fluid">
             <div class="masonary-item col-12">
               <div class="mT-30 bgc-white p-20 bd" >
-                  <img class="col-md-12" src="assets/static/images/logoBig.png" alt="">
-                </div>
+                <form class="email-compose-body" action="https://formspree.io/info@aquasafe.io" method="POST">
+                  <h4 class="c-grey-900 mB-20">Send Message</h4>
+                  <div class="send-header">
+                    <div class="form-group">
+                      <input name="email" type="text" class='form-control' placeholder="From">
+                    </div>
+                    <div class="form-group">
+                      <input name="_subject" class="form-control" placeholder="Email Subject">
+                    </div>
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" placeholder="Please fill in contact request..." rows='10'></textarea>
+                    </div>
+                  </div>
+                  <input type="hidden" name="_format" value="plain" />
+                  <input type="hidden" name="_next" value="http://escapeofwater.com" />
+                  <div id="compose-area"></div>
+                  <div class="text-right mrg-top-30">
+                    <button type="submit" class="btn btn-info">Send</button>
+                  </div>
+                </form>
+                  </div>
               </div>
-            </div>
-        </main>
+          </main>
 
         <!-- ### $App Screen Footer ### -->
         <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">

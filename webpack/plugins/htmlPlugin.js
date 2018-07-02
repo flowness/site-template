@@ -6,6 +6,8 @@ const
 const titles = {
   'index': 'About',
   'report': 'Reports',
+  'service' : 'Services',
+  'contact' : 'Contact US',
   '404': '404',
   '500': '500',
 };

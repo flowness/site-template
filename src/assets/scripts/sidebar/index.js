@@ -56,21 +56,4 @@ export default (function () {
     })
     .addClass('active');
 
-  // ٍSidebar Toggle
-  $('.sidebar-toggle').on('click', e => {
-    $('.app').toggleClass('is-collapsed');
-    e.preventDefault();
-  });
-
-  /**
-   * Wait untill sidebar fully toggled (animated in/out)
-   * then trigger window resize event in order to recalculate
-   * masonry layout widths and gutters.
-   */
-  $('#sidebar-toggle').click(e => {
-    e.preventDefault();
-    setTimeout(() => {
-      window.dispatchEvent(window.EVENT);
-    }, 300);
-  });
 }());

@@ -64,7 +64,6 @@
     "moment": "^2.19.1",
     "perfect-scrollbar": "^1.1.0",
     "popper.js": "^1.12.6",
-    "scotty": "0.0.2",
     "skycons": "^1.0.0"
   }
 }
